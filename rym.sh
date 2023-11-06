@@ -10,7 +10,6 @@ download_rym () {
 
 for i in $(seq 1 $page)
 do
-echo "$1" && \
 curl -A "user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.182 Safari/537.36" \
 -X GET "$url$i/" \
 -o rym_$i.txt && sleep $(shuf -i 30-60 | head -1)
