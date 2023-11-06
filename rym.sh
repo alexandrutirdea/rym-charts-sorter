@@ -1,4 +1,5 @@
 #!/bin/bash
+#Alexandru Țîrdea, November 6th 2023
 
 url="$1"
 page="$2"
